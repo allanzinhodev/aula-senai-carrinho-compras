@@ -1,0 +1,28 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Online</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Loja Online</h1>
+    <button id="cart-toggle">🛒 Carrinho (<span id="cart-count">0</span>)</button>
+  </header>
+
+  <main>
+    <section id="products"></section>
+    <aside id="cart" class="hidden">
+      <h2>Carrinho de Compras</h2>
+      <div id="cart-items"></div>
+      <p>Total: R$ <span id="cart-total">0.00</span></p>
+      <button id="checkout">Finalizar Compra</button>
+    </aside>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
